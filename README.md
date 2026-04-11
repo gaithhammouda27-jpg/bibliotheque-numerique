@@ -12,15 +12,17 @@ Application web complète de gestion de bibliothèque permettant aux utilisateur
 - Lecture de livres en PDF (format ebook)
 - Suivi des emprunts en cours
 - Historique des retours
-
 **Aperçu de l'interface utilisateur :**
 
 | Fonctionnalité | Aperçu |
 |----------------|--------|
 | Connexion | ![Login](screenshots/login.png) |
+| Inscription | ![Register](screenshots/register.png) |
 | Catalogue | ![Books](screenshots/books.png) |
 | Lecture PDF | ![PDF](screenshots/read-pdf.png) |
 | Mes emprunts | ![Borrows](screenshots/my-borrows.png) |
+| Dashboard Admin | ![Dashboard](screenshots/admin_dashboard.png) |
+| Gestion Utilisateurs | ![Users](screenshots/admin_users.png) |
 
 ### 👑 Administrateurs
 - Dashboard dédié
