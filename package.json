@@ -1,0 +1,17 @@
+{
+  "name": "biblio-project",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"cd backend && node server.js\" \"cd frontend && npm start\""
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.9",
+    "axios": "^1.14.0",
+    "concurrently": "^8.0.0",
+    "multer": "^2.1.1",
+    "react-router-dom": "^7.14.0",
+    "web-vitals": "^5.2.0"
+  }
+}

@@ -1,0 +1,144 @@
+/* AdminUsers.css */
+.admin-users-page {
+  min-height: 100vh;
+  background: #f5f7fa;
+  padding: 2rem;
+}
+
+.admin-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.back-btn {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.admin-tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+}
+
+.admin-tabs button {
+  background: none;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.admin-tabs button.active {
+  background: #667eea;
+  color: white;
+}
+
+.users-table, .data-table {
+  width: 100%;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.users-table th, .data-table th {
+  background: #2c3e50;
+  color: white;
+  padding: 1rem;
+  text-align: left;
+}
+
+.users-table td, .data-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.role-select {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.borrow-tag {
+  display: inline-block;
+  background: #e3f2fd;
+  color: #1976d2;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  margin: 0.2rem;
+}
+
+.btn-view, .btn-delete-user {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 0.25rem;
+  border: none;
+}
+
+.btn-view {
+  background: #17a2b8;
+  color: white;
+}
+
+.btn-delete-user {
+  background: #dc3545;
+  color: white;
+}
+
+.btn-delete-user:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.loading {
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.2rem;
+}
+/* Dans AdminUsers.css */
+.btn-restore {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.btn-restore:hover {
+  background: #218838;
+}
+
+.btn-permanent-delete {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.btn-permanent-delete:hover {
+  background: #c82333;
+}
+
+/* Actions dans le tableau */
+.data-table td:last-child {
+  white-space: nowrap;
+}
