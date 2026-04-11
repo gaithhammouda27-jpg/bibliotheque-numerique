@@ -13,6 +13,15 @@ Application web complète de gestion de bibliothèque permettant aux utilisateur
 - Suivi des emprunts en cours
 - Historique des retours
 
+**Aperçu de l'interface utilisateur :**
+
+| Fonctionnalité | Aperçu |
+|----------------|--------|
+| Connexion | ![Login](screenshots/login.png) |
+| Catalogue | ![Books](screenshots/books.png) |
+| Lecture PDF | ![PDF](screenshots/read-pdf.png) |
+| Mes emprunts | ![Borrows](screenshots/my-borrows.png) |
+
 ### 👑 Administrateurs
 - Dashboard dédié
 - Gestion complète des livres (CRUD)
@@ -50,3 +59,29 @@ Application web complète de gestion de bibliothèque permettant aux utilisateur
 ```bash
 git clone https://github.com/gaith_hammouda/bibliotheque-numerique.git
 cd bibliotheque-numerique
+#backend
+cd backend
+npm install
+npm start
+#frontend
+cd frontend
+npm install
+npm run dev
+#Configuration (creer fichier .env)
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=your_password
+DB_NAME=bibliotheque
+JWT_SECRET=secret_key
+
+---
+
+### 3. 📸 Vérifie les images
+Ton README utilise :
+```md
+screenshots/login.png
+## 🌐 Démo
+Lien du site : https://github.com/gaithhammouda27-jpg/bibliotheque-numerique.git
+
+## 👨‍💻 Auteur
+- Ghaith Hammouda
