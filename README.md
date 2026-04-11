@@ -76,12 +76,7 @@ DB_PASSWORD=your_password
 DB_NAME=bibliotheque
 JWT_SECRET=secret_key
 
----
 
-### 3. 📸 Vérifie les images
-Ton README utilise :
-```md
-screenshots/login.png
 ## 🌐 Démo
 Lien du site : https://github.com/gaithhammouda27-jpg/bibliotheque-numerique.git
 
